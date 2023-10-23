@@ -21,11 +21,11 @@ package com.entertainment;
  * NOTE: it is *not* a public class.
  * It is used only within the package (specifically by Television).
  */
-class Tuner {
+class Tuner {   // tuner is a private class - it is not a public class. Can't create instance, using "new"
     private String channel = "Menu";
     private int station;  // internal tuner frequency for the named channel
 
-    public void setChannel(String channel) {
+    public void setChannel(String channel) {   //the name of the channel to set
         this.channel = channel;
         findStation(channel);
         goToStation();
