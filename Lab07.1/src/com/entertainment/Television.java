@@ -92,7 +92,7 @@ public class Television {
         return brand;
     }
 
-    // TODO: Lab 6.1 p.81 (optional)
+
     //Use VALID_BRANDS here instead of hardcoded magic strings "Samsung", "Sony"
     //VALID-BRANDS looks like ["Samsung", "Sony"...
     public void setBrand(String brand) {
