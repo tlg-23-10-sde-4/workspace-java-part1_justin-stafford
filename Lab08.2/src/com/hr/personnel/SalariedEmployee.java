@@ -6,9 +6,8 @@ public class SalariedEmployee extends Employee {
     public double salary;
 
     public SalariedEmployee(String name, LocalDate hireDate) {
-       super(name, hireDate);
+        super(name, hireDate);
     }
-
 
     public SalariedEmployee(String name, LocalDate hireDate, double salary) {
         this(name, hireDate);
