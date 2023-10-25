@@ -9,6 +9,7 @@
 package com.hr.corp;
 
 import gov.irs.TaxPayer;
+import org.w3c.dom.ls.LSOutput;
 
 /**
  * Corporate entity - also pays taxes.
@@ -22,6 +23,7 @@ public class Corporation implements TaxPayer {
 
     @Override  // interface TaxPayer
     public void payTaxes() {
+
         System.out.println(getName() + " paid no taxes - we lobbied hard and it worked");
     }
 
