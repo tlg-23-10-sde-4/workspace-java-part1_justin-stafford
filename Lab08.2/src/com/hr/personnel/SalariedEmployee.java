@@ -5,6 +5,13 @@ import java.time.LocalDate;
 public class SalariedEmployee extends Employee {
     public double salary;
 
+    // Methods (excluding get/set methods):
+
+    public void pay() {
+        double payment = getSalary();
+        System.out.println(getName() + " is paid salary of " + getSalary());
+
+    }
     public SalariedEmployee(String name, LocalDate hireDate) {
         super(name, hireDate);
     }
@@ -24,10 +31,10 @@ public class SalariedEmployee extends Employee {
     }
 
     // toString
+    @Override
     public String toString() {
-        return "SalariedEmployee" +
-                ": name=" + getName() +
-                ", hireDate=" + getHireDate() +
-                ", salary=" + getSalary();
+        return super.toString() +
+                ", salary=" +
+                getSalary();
     }
 }

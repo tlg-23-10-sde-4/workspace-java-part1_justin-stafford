@@ -6,6 +6,12 @@ public class HourlyEmployee extends Employee {
     public double rate;
     public double hours;
 
+
+    public void pay() {
+        double payment = getRate() * getHours();
+        System.out.println(getName() + " is paid wage of " + getRate() * getHours() + " per hour");
+    }
+
     public HourlyEmployee() {
         super();
     }
@@ -36,12 +42,11 @@ public class HourlyEmployee extends Employee {
         this.hours = hours;
     }
 
+    @Override
     public String toString() {
-        return "HourlyEmployee" +
-                ": name=" + getName() +
-                ", hireDate=" + getHireDate() +
-                ", rate=" + getRate()
-                + ", hours=" + getHours();
+        return super.toString() +
+               ", rate=" + getRate() +
+                ", hours=" + getHours();
     }
 
 }
