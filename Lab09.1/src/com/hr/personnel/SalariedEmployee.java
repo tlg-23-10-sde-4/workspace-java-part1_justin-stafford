@@ -52,4 +52,8 @@ public class SalariedEmployee
                 ", salary=" +
                 getSalary();
     }
-}
+    @Override
+    public double getStandardDeduction() {
+        return 9_000.00;
+    }
+        }

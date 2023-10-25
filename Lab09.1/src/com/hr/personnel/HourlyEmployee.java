@@ -19,7 +19,7 @@ public class HourlyEmployee
 
     public void payTaxes() {
         double taxes = getRate() * getHours();
-        System.out.println(getName() + " pays taxes in the amount of " + getRate() * taxes + " per hour");
+        System.out.println(getName() + " pays taxes in the amount of " + taxes);
     }
 
     public HourlyEmployee(String name, LocalDate hireDate) {

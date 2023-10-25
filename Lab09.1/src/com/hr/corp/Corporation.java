@@ -23,11 +23,10 @@ public class Corporation implements TaxPayer {
 
     @Override  // interface TaxPayer
     public void payTaxes() {
-
-        System.out.println(getName() + " paid no taxes - we lobbied hard and it worked");
+            System.out.println(getName() + " paid no taxes - we lobbied hard and it worked");
     }
 
-    @Override  // interface TaxPayer
+    @Override  // interface TaxPayer (opt -in)
     public void fileReturn() {
         System.out.println("Return not filed - we sent our lawyers instead");
     }
@@ -39,4 +38,8 @@ public class Corporation implements TaxPayer {
     public void setName(String name) {
         this.name = name;
     }
+    public double getStandardDeduction() {
+        return 1_000_000;
+    }
+
 }
