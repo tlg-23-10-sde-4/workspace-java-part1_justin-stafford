@@ -3,15 +3,10 @@ package com.hr.personnel;
 import java.time.LocalDate;
 
 public class HourlyEmployee extends Employee {
-    public double rate;
-    public double hours;
+    private double rate;
+    private double hours;
 
-
-    public void pay() {
-        double payment = getRate() * getHours();
-        System.out.println(getName() + " is paid wage of " + getRate() * getHours() + " per hour");
-    }
-
+    // constructors
     public HourlyEmployee() {
         super();
     }
@@ -26,16 +21,24 @@ public class HourlyEmployee extends Employee {
         setHours(hours);
     }
 
-    // getters and setters for fields
+    // business ("action") methods
+    @Override
+    public void pay() {
+        double payment = getRate() * getHours();
+        System.out.println(getName() + " is paid hourly " + payment);
+    }
+
+    // accessor methods
     public double getRate() {
         return rate;
     }
 
-    public double getHours() {
-        return hours;
-    }
     public void setRate(double rate) {
         this.rate = rate;
+    }
+
+    public double getHours() {
+        return hours;
     }
 
     public void setHours(double hours) {
@@ -44,9 +47,6 @@ public class HourlyEmployee extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() +
-               ", rate=" + getRate() +
-                ", hours=" + getHours();
+        return super.toString() + ", rate=" + getRate() + ", hours=" + getHours();
     }
-
 }

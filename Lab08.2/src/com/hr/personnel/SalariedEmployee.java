@@ -3,17 +3,16 @@ package com.hr.personnel;
 import java.time.LocalDate;
 
 public class SalariedEmployee extends Employee {
-    public double salary;
+    private double salary;
 
-    // Methods (excluding get/set methods):
-
-    public void pay() {
-        double payment = getSalary();
-        System.out.println(getName() + " is paid salary of " + getSalary());
-
+    // constructors
+    public SalariedEmployee() {
+        super();
     }
+
     public SalariedEmployee(String name, LocalDate hireDate) {
         super(name, hireDate);
+        // registerIn40k()
     }
 
     public SalariedEmployee(String name, LocalDate hireDate, double salary) {
@@ -21,7 +20,18 @@ public class SalariedEmployee extends Employee {
         setSalary(salary);
     }
 
-   // getters and setters
+    // business ("action") methods
+    @Override
+    public void pay() {
+        double payment = getSalary();
+        System.out.println(getName() + " is paid salary " + payment);
+    }
+
+    public void takeVacation() {
+        System.out.println(getName() + " is on vacation");
+    }
+
+    // accessor methods
     public double getSalary() {
         return salary;
     }
@@ -30,11 +40,8 @@ public class SalariedEmployee extends Employee {
         this.salary = salary;
     }
 
-    // toString
     @Override
     public String toString() {
-        return super.toString() +
-                ", salary=" +
-                getSalary();
+        return super.toString() + ", salary=" + getSalary();
     }
 }

@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" filepath="$PROJECT_DIR$/MiniLab05.1/MiniLab05.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" filepath="$PROJECT_DIR$/MiniLab08.1/MiniLab08.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Scratch/Scratch.iml" filepath="$PROJECT_DIR$/Scratch/Scratch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shape/Shape.iml" filepath="$PROJECT_DIR$/Shape/Shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" filepath="$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModel1/src/com/robot/robot.iml" filepath="$PROJECT_DIR$/WhiteBoardModel1/src/com/robot/robot.iml" />
     </modules>

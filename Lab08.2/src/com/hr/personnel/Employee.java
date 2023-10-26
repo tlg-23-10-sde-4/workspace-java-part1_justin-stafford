@@ -26,12 +26,13 @@ public abstract class Employee {
     private String name;
     private LocalDate hireDate;
 
-
     // constructors
     public Employee() {
+        super();
     }
 
     public Employee(String name, LocalDate hireDate) {
+        super();
         setName(name);
         setHireDate(hireDate);
     }
@@ -42,12 +43,10 @@ public abstract class Employee {
     }
 
     /*
-     * Declare THAT "all employees get paid" BUT we can't implement it yet.
-     * We can't implement it yet because we don't know the type of the employee.
-     * How do we define a common behaviour.
+     * Declare THAT "all employees get paid" BUT we don't implement it here.
+     * We can't.  We simply have no data to perform the task.
      */
     public abstract void pay();
-
 
     // accessor methods
     public String getName() {
@@ -68,6 +67,6 @@ public abstract class Employee {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + ": name= " + getName() + ", hireDate=" + getHireDate();
+        return getClass().getSimpleName() + ": name=" + getName() + ", hireDate=" + getHireDate();
     }
 }
