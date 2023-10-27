@@ -6,6 +6,7 @@ public abstract class Vehicle {
 
     // CONSTRUCTORS
     public Vehicle(String vin) {
+
         this.vin = vin;
     }
 
@@ -14,11 +15,13 @@ public abstract class Vehicle {
 
     // ACCESSOR METHODS
     public String getVin() {
+
         return vin;
     }
 
     @Override
     public String toString() {
+
         return getClass().getSimpleName() + ": vin=" + getVin();
     }
 }
