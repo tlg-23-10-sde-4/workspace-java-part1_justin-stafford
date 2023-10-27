@@ -1,9 +1,9 @@
 package com.entertainment.client;
 
 import com.entertainment.DisplayType;
-import com.entertainment.InvalidBrandException;
 import com.entertainment.Television;
-import static com.entertainment.Television.*;
+import com.entertainment.InvalidBrandException;
+
 /*
 * Application main-class, i.e., the class definition with the main() method.
 * Purpose: create a few instances of com.entertainment.Television and give them a test-drive.

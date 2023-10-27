@@ -1,7 +1,5 @@
 import com.entertainment.DisplayType;
-import com.entertainment.InvalidBrandException;
 import com.entertainment.Television;
-import com.entertainment.DisplayType;
 
 import java.util.Arrays;
 

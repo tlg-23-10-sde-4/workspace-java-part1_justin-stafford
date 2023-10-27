@@ -17,13 +17,13 @@ public class Triangle implements Shape {
         this.degree = degree;
     }
 
-    @Override
+
     public double area() {
         double radians = Math.toRadians(degree);
         return (side1 * side2) / 2 * Math.sin(radians);
     }
 
-    @Override
+
     public double perimeter() {
         return 0;
     }

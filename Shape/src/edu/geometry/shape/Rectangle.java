@@ -19,14 +19,13 @@ public class Rectangle implements Shape {
         return width * length;
     }
 
-    @Override
     public double perimeter() {
         return 2 * (width + length);
     }
     
-//    @Override
-//    public String toString() {
-//        return "Rectangle{" + "width=" + width + ", length=" + length + '}';
+//
+//  public String toString() {
+//     return "Rectangle{" + "width=" + width + ", length=" + length + '}';
 //    }
 
 }

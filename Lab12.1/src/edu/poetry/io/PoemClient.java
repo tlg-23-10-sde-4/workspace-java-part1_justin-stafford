@@ -6,7 +6,7 @@
  * Copyright LearningPatterns Inc.
  */
 
-package com.poetry.io;
+package edu.poetry.io;
 
 import java.io.BufferedReader;
 import java.io.IOException;

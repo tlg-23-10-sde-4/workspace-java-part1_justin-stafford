@@ -6,6 +6,7 @@ class CalculatorClient {
     private static double avg;
 
     public static void main(String[] args) {
+        Calculator calculator = null;
         double sum = calculator.add(3,5);
         //* inlay ints "calc.add(3,5)"
         System.out.println("The sum is " + sum);
