@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lab01.1/Lab01.1.iml" filepath="$PROJECT_DIR$/Lab01.1/Lab01.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab01.1/Lab01.11.iml" filepath="$PROJECT_DIR$/Lab01.1/Lab01.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab02.2/Lab02.2.iml" filepath="$PROJECT_DIR$/Lab02.2/Lab02.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab04.1-Extra/Lab04.1-Extra.iml" filepath="$PROJECT_DIR$/Lab04.1-Extra/Lab04.1-Extra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab05.2/Lab05.2.iml" filepath="$PROJECT_DIR$/Lab05.2/Lab05.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab06.1/Lab06.1.iml" filepath="$PROJECT_DIR$/Lab06.1/Lab06.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab07.1/Lab07.1.iml" filepath="$PROJECT_DIR$/Lab07.1/Lab07.1.iml" />
@@ -16,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lab10-Extra/Lab10-Extra.iml" filepath="$PROJECT_DIR$/Lab10-Extra/Lab10-Extra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab10.1-HR/Lab10.1-HR.iml" filepath="$PROJECT_DIR$/Lab10.1-HR/Lab10.1-HR.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab10.1-Television/Lab10.1-Television.iml" filepath="$PROJECT_DIR$/Lab10.1-Television/Lab10.1-Television.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab11-Extra/Lab11-Extra.iml" filepath="$PROJECT_DIR$/Lab11-Extra/Lab11-Extra.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab11.1/Lab11.1.iml" filepath="$PROJECT_DIR$/Lab11.1/Lab11.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab12.1/Lab12.1.iml" filepath="$PROJECT_DIR$/Lab12.1/Lab12.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab12.2/Lab12.2.iml" filepath="$PROJECT_DIR$/Lab12.2/Lab12.2.iml" />
@@ -25,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/Scratch/Scratch.iml" filepath="$PROJECT_DIR$/Scratch/Scratch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape.iml" filepath="$PROJECT_DIR$/Shape/Shape.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" filepath="$PROJECT_DIR$/WhiteBoardModel/WhiteBoardModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhiteboardModel_Justin_Reviewed/WhiteboardModel_Justin_Reviewed.iml" filepath="$PROJECT_DIR$/WhiteboardModel_Justin_Reviewed/WhiteboardModel_Justin_Reviewed.iml" />
       <module fileurl="file://$PROJECT_DIR$/WhiteBoardModel1/src/com/robot/robot.iml" filepath="$PROJECT_DIR$/WhiteBoardModel1/src/com/robot/robot.iml" />
     </modules>
   </component>
